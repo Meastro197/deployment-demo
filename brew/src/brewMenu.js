@@ -1,0 +1,71 @@
+// brewMenu.js
+
+export const brewMenu = {
+  coffee: [
+    { title: 'Espresso', price: '0.78' },
+    { title: 'Americano', price: '0.78' },
+    { title: 'Espresso Macchiato', price: '0.78' },
+    { title: 'Turkish Coffee', price: '1.2' },
+    { title: 'V60', price: 'new' },
+    { title: 'Moka Pot', price: 'new' },
+  ],
+  latte: [
+    { title: 'Flat White', price: '1.28 / 1.65' },
+    { title: 'Cortado', price: '1.28 / 1.65' },
+    { title: 'Cafe Latte', price: '1.28 / 1.65' },
+    { title: 'Cappuccino', price: '1.28 / 1.65' },
+    { title: 'Chocolate Latte', price: '1.44 / 1.85' },
+    { title: 'Mocha Latte', price: '1.44 / 1.85' },
+    { title: 'Matcha Latte', price: '1.44 / 1.88' },
+    { title: 'Monbana', price: '1.44 / 1.88' },
+  ],
+  iced: [
+    { title: 'Mocha', price: '2.2 / 2.75 / 3.15' },
+    { title: 'Caramel', price: '2.2 / 2.75 / 3.15' },
+    { title: 'Salted Caramel', price: '2.2 / 2.75 / 3.15' },
+    { title: 'Vanilla', price: '2.2 / 2.75 / 3.15' },
+    { title: 'Cookies', price: '2.2 / 2.75 / 3.15' },
+    { title: 'Hazelnut', price: '2.2 / 2.75 / 3.15' },
+    { title: 'White Mocha', price: '2.2 / 2.75 / 3.15' },
+    { title: 'Combo', price: 'new' },
+  ],
+  frappe: [
+    { title: 'Mocha', price: '2.67 / 3.3 / 3.9' },
+    { title: 'Caramel', price: '2.67 / 3.3 / 3.9' },
+    { title: 'White Mocha', price: '2.67 / 3.3 / 3.9' },
+    { title: 'Double Chocolate', price: '2.67 / 3.3 / 3.9' },
+    { title: 'Matcha', price: '2.67 / 3.3 / 3.9' },
+    { title: 'Vanilla', price: '2.67 / 3.3 / 3.9' },
+  ],
+  soda: [
+    { title: 'Passion', price: '4.45' },
+    { title: 'Hibiscus Strawberry', price: '4.45' },
+    { title: 'Watermelon Mint', price: '4.45' },
+    { title: 'Raspberry', price: '4.45' },
+    { title: 'Orange Coffee', price: '4.45' },
+  ],
+  bobaSmoothie: [
+    { title: 'Mango', price: '2.67 / 3.3 / 3.9' },
+    { title: 'Strawberry', price: '2.67 / 3.3 / 3.9' },
+    { title: 'Passion Fruit', price: '2.67 / 3.3 / 3.9' },
+  ],
+  milkshake: [
+    { title: 'Lotus', price: '2.67 / 3.3 / 3.9' },
+    { title: 'Nutella', price: '2.67 / 3.3 / 3.9' },
+    { title: 'Oreo', price: '2.67 / 3.3 / 3.9' },
+    { title: 'Strawberry', price: '2.67 / 3.3 / 3.9' },
+    { title: 'Caramel Popcorn', price: 'new' },
+    { title: 'Kinder Bueno', price: '2.67 / 3.3 / 3.9' },
+    { title: 'Snickers', price: '2.67 / 3.3 / 3.9' },
+    { title: 'Brownie', price: 'new' },
+  ],
+  smoothie: [
+    { title: 'Peach Passion', price: '2.2 / 2.75 / 3.15' },
+    { title: 'Mango Passion', price: '2.2 / 2.75 / 3.15' },
+    { title: 'Strawberry', price: '2.2 / 2.75 / 3.15' },
+    { title: 'Tropical', price: '2.2 / 2.75 / 3.15' },
+    { title: 'Berryberries', price: '2.2 / 2.75 / 3.15' },
+    { title: 'Minted Lemonade', price: '2.2 / 2.75 / 3.15' },
+    { title: 'Lycheelych', price: 'new' },
+  ]
+};
